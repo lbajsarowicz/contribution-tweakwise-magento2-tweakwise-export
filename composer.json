@@ -12,9 +12,13 @@
         "magento/inventory-metapackage": "*"
     },
     "require-dev": {
+        "bitexpert/phpstan-magento": "^0.44",
         "emico/code-quality": "^10.8",
+        "magento/magento-coding-standard": "^41",
         "pdepend/pdepend": "^2.16",
-        "phpmd/phpmd": "^2.15"
+        "phpmd/phpmd": "^2.15",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan": "^2.1"
     },
     "replace": {
         "emico/tweakwise-export": "v4.2.4"
